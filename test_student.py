@@ -1,12 +1,11 @@
-from student  import student_registation_details
-def test_student_details():
+from employee import employee_details
 
+def test_employee_details():
     expected_output = (
-        "Student ID:323\n"
-        "Student Name:Bhagya\n"
-        "Course:BCA\n"
-        "Academic Year:2024-2025"
-        
+        "Employee Name : Alice\n"
+        "Employee ID   : E10001\n"
+        "Department    : IT\n"
+        "Salary        : 55000\n"
     )
 
-    assert employee_details("Alice","E10001""IT",55000) == expected_output 
+    assert employee_details("Alice", "E10001", "IT", 55000) == expected_output
