@@ -6,9 +6,8 @@ def student_registration_details(student_id, name, course, academic_year):
         f"Academic Year   : {academic_year}\n"
     )
     return result
-
-
-if __name__ == "__main__":
+    
+    if __name__ == "__main__":
     student_id = "323"
     name = "Bhagya"
     course = "BCA"
